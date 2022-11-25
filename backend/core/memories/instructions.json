@@ -1,0 +1,344 @@
+{
+  "lb": {
+    "opcode": "0000011",
+    "funct3": "000",
+    "funct7": "0000000",
+    "type": "I"
+  },
+  "lh": {
+    "opcode": "0000011",
+    "funct3": "001",
+    "funct7": "0000000",
+    "type": "I"
+  },
+  "lw": {
+    "opcode": "0000011",
+    "funct3": "010",
+    "funct7": "0000000",
+    "type": "I"
+  },
+  "ld": {
+    "opcode": "0000011",
+    "funct3": "011",
+    "funct7": "0000000"
+  },
+  "lbu": {
+    "opcode": "0000011",
+    "funct3": "100",
+    "funct7": "0000000",
+    "type": "I"
+  },
+  "lhu": {
+    "opcode": "0000011",
+    "funct3": "101",
+    "funct7": "0000000",
+    "type": "I"
+  },
+  "lwu": {
+    "opcode": "0000011",
+    "funct3": "110",
+    "funct7": "0000000"
+  },
+  "addi": {
+    "opcode": "0010011",
+    "funct3": "000",
+    "funct7": "0000000",
+    "type": "I"
+  },
+  "slli": {
+    "opcode": "0010011",
+    "funct3": "001",
+    "funct7": "0000000",
+    "type": "I"
+  },
+  "slti": {
+    "opcode": "0010011",
+    "funct3": "010",
+    "funct7": "0000000",
+    "type": "I"
+  },
+  "sltiu": {
+    "opcode": "0010011",
+    "funct3": "011",
+    "funct7": "0000000",
+    "type": "I"
+  },
+  "xori": {
+    "opcode": "0010011",
+    "funct3": "100",
+    "funct7": "0000000",
+    "type": "I"
+  },
+  "srli": {
+    "opcode": "0010011",
+    "funct3": "101",
+    "funct7": "0000000",
+    "type": "I"
+  },
+  "srai": {
+    "opcode": "0010011",
+    "funct3": "101",
+    "funct7": "0100000",
+    "type": "I"
+  },
+  "ori": {
+    "opcode": "0010011",
+    "funct3": "110",
+    "funct7": "0000000",
+    "type": "I"
+  },
+  "andi": {
+    "opcode": "0010011",
+    "funct3": "111",
+    "funct7": "0000000",
+    "type": "I"
+  },
+  "auipc": {
+    "opcode": "0010111",
+    "funct3": "000",
+    "funct7": "0000000",
+    "type": "U"
+  },
+  "addiw": {
+    "opcode": "0011011",
+    "funct3": "000",
+    "funct7": "0000000"
+  },
+  "slliw": {
+    "opcode": "0011011",
+    "funct3": "001",
+    "funct7": "0000000"
+  },
+  "srliw": {
+    "opcode": "0011011",
+    "funct3": "101",
+    "funct7": "0000000"
+  },
+  "sraiw": {
+    "opcode": "0011011",
+    "funct3": "101",
+    "funct7": "0100000"
+  },
+  "sb": {
+    "opcode": "0100011",
+    "funct3": "000",
+    "funct7": "0000000",
+    "type": "S"
+  },
+  "sh": {
+    "opcode": "0100011",
+    "funct3": "001",
+    "funct7": "0000000",
+    "type": "S"
+  },
+  "sw": {
+    "opcode": "0100011",
+    "funct3": "010",
+    "funct7": "0000000",
+    "type": "S"
+  },
+  "sd": {
+    "opcode": "0100011",
+    "funct3": "011",
+    "funct7": "0000000"
+  },
+  "add": {
+    "opcode": "0110011",
+    "funct3": "000",
+    "funct7": "0000000",
+    "type": "R"
+  },
+  "sub": {
+    "opcode": "0110011",
+    "funct3": "000",
+    "funct7": "0100000",
+    "type": "R"
+  },
+  "sll": {
+    "opcode": "0110011",
+    "funct3": "001",
+    "funct7": "0000000",
+    "type": "R"
+  },
+  "slt": {
+    "opcode": "0110011",
+    "funct3": "010",
+    "funct7": "0000000",
+    "type": "R"
+  },
+  "sltu": {
+    "opcode": "0110011",
+    "funct3": "011",
+    "funct7": "0000000",
+    "type": "R"
+  },
+  "xor": {
+    "opcode": "0110011",
+    "funct3": "100",
+    "funct7": "0000000",
+    "type": "R"
+  },
+  "srl": {
+    "opcode": "0110011",
+    "funct3": "101",
+    "funct7": "0000000",
+    "type": "R"
+  },
+  "sra": {
+    "opcode": "0110011",
+    "funct3": "101",
+    "funct7": "0100000",
+    "type": "R"
+  },
+  "or": {
+    "opcode": "0110011",
+    "funct3": "110",
+    "funct7": "0000000",
+    "type": "R"
+  },
+  "and": {
+    "opcode": "0110011",
+    "funct3": "111",
+    "funct7": "0000000",
+    "type": "R"
+  },
+  "lui": {
+    "opcode": "0110111",
+    "funct3": "000",
+    "funct7": "0000000",
+    "type": "U"
+  },
+  "addw": {
+    "opcode": "0111011",
+    "funct3": "000",
+    "funct7": "0000000"
+  },
+  "subw": {
+    "opcode": "0111011",
+    "funct3": "000",
+    "funct7": "0100000"
+  },
+  "sllw": {
+    "opcode": "0111011",
+    "funct3": "001",
+    "funct7": "0000000"
+  },
+  "srlw": {
+    "opcode": "0111011",
+    "funct3": "101",
+    "funct7": "0000000"
+  },
+  "sraw": {
+    "opcode": "0111011",
+    "funct3": "101",
+    "funct7": "0100000"
+  },
+  "beq": {
+    "opcode": "1100011",
+    "funct3": "000",
+    "funct7": "0000000",
+    "type": "B"
+  },
+  "bne": {
+    "opcode": "1100011",
+    "funct3": "001",
+    "funct7": "0000000",
+    "type": "B"
+  },
+  "blt": {
+    "opcode": "1100011",
+    "funct3": "100",
+    "funct7": "0000000",
+    "type": "B"
+  },
+  "bge": {
+    "opcode": "1100011",
+    "funct3": "101",
+    "funct7": "0000000",
+    "type": "B"
+  },
+  "bltu": {
+    "opcode": "1100011",
+    "funct3": "110",
+    "funct7": "0000000",
+    "type": "B"
+  },
+  "bgeu": {
+    "opcode": "1100011",
+    "funct3": "111",
+    "funct7": "0000000",
+    "type": "B"
+  },
+  "jalr": {
+    "opcode": "1100111",
+    "funct3": "000",
+    "funct7": "0000000",
+    "type": "I"
+  },
+  "jal": {
+    "opcode": "1101111",
+    "funct3": "000",
+    "funct7": "0000000",
+    "type": "J"
+  },
+  "csrrw": {
+    "opcode": "1110011",
+    "funct3": "001",
+    "funct7": "000000000000",
+    "type": "I"
+  },
+  "csrrs": {
+    "opcode": "1110011",
+    "funct3": "010",
+    "funct7": "000000000000",
+    "type": "I"
+  },
+  "csrrc": {
+    "opcode": "1110011",
+    "funct3": "011",
+    "funct7": "000000000000",
+    "type": "I"
+  },
+  "csrrwi": {
+    "opcode": "1110011",
+    "funct3": "101",
+    "funct7": "000000000000",
+    "type": "I"
+  },
+  "csrrsi": {
+    "opcode": "1110011",
+    "funct3": "110",
+    "funct7": "000000000000",
+    "type": "I"
+  },
+  "csrrwci": {
+    "opcode": "1110011",
+    "funct3": "111",
+    "funct7": "000000000000",
+    "type": "I"
+  },
+  "fence": {
+    "opcode": "0000000",
+    "funct3": "000",
+    "funct7": "000000000000",
+    "type": "I"
+  },
+  "fence.i": {
+    "opcode": "0000000",
+    "funct3": "000",
+    "funct7": "000000000000",
+    "type": "I"
+  },
+  "ecall": {
+    "opcode": "0000000",
+    "funct3": "000",
+    "funct7": "000000000000",
+    "type": "I"
+  },
+  "ebreak": {
+    "opcode": "0000000",
+    "funct3": "000",
+    "funct7": "000000000000",
+    "type": "I"
+  }
+}

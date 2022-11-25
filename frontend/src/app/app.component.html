@@ -1,0 +1,48 @@
+<div class="container">
+  <div style="display: flex;">
+  <button (click)="getMachineLanguage()">Assemble</button>
+  <button (click)="getMachineLanguage()">Run the current program</button>
+  <button (click)="getMachineLanguage()">Run one step at time</button>
+  <button (click)="getMachineLanguage()">Undo the last step</button>
+  <button (click)="getMachineLanguage()">Reset memory and registers</button>
+</div>
+  <ngx-codemirror style="width: 100%"
+    [(ngModel)]="content"
+    [options]="{
+    lineNumbers: true,
+    theme: 'material',
+    mode: 'markdown'
+  }"
+  ></ngx-codemirror>
+
+  <div style="display: flex;">
+      <div class="card">
+          
+      </div>
+      <div class="card">
+          
+      </div>
+      <div class="card">
+          
+      </div>
+  </div>
+
+  <div style="padding: 10px; display: flex; flex-direction: column;">
+    <span style="padding: 2px; font-weight: 600">.data:</span>
+    <span *ngFor="let data of datas;" style="padding-left: 20px">
+      {{data}}
+    </span>
+    <span style="padding: 2px; font-weight: 600">.text:</span>
+    <span *ngFor="let text of text;" style="padding-left: 20px">
+      {{text}}
+    </span>
+  </div>
+
+
+
+
+
+
+
+
+</div>
